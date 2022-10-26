@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>REGISTRATION PAGE</title>
+        <style>
+            body{
+                display:flex;
+                justify-content: center;
+                align-items:center;
+                flex-direction:column;
+            }
+            input{
+                width:250px;
+                height:44px;
+            }
+            h2{
+                display:flex;
+                align-items:center;
+                justify-content: center;
+                background-color: #282A35;
+                height:60px;
+                color:white;
+            }
+            form{
+                border:1px solid black;
+                padding:20px;
+            }
+            #register{
+                width:100px;
+                height:40px;
+                background-color:#04AA6D;
+                color:white;
+                border:0px;
+            }
+            .btn{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .sub-wrapper{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            div{
+                padding:5px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="login">
+            <h2>REGISTRATION PAGE</h2>
+            <div class="sub-wrapper">
+                <div>
+                    <label for="name">Name</label><br><br>
+                    <input type="text" id="name" required>
+                </div><br>
+                <div>
+                    <label for="phone">Phone Number</label><br><br>
+                    <input type="text" id="phone" required>
+                </div><br>
+            </div>
+            <div class="sub-wrapper">
+                <div>
+                    <label for="position">Job title</label><br><br>
+                    <input type="text" id="position" required>
+                </div><br>
+                <div>
+                    <label for="name">Resume</label><br><br>
+                    <input type="file" value="Upload">
+                </div><br>
+            </div>
+            <div class="sub-wrapper">
+                <div>
+                    <label for="email">Email ID</label><br><br>
+                    <input type="text" id="email" required>
+                </div><br>
+                <div>
+                    <label for="pass">Password</label><br><br>
+                    <input type="password" id="pass" required>
+                </div><br>
+            </div>
+            
+            <div class="btn">
+                <input id="register"  type="submit" value="Register">
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Login Page</title>
+        <style>
+            body{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction:column;
+            }
+            #login{
+                width:100px;
+                height:40px;
+                background-color:#04AA6D;
+                color:white;
+                border:0px;
+            }
+            .btn{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+            input{
+                width:250px;
+                height:44px;
+            }
+            h2{
+                display:flex;
+                align-items:center;
+                justify-content: center;
+                background-color: #282A35;
+                height:60px;
+                color:white;
+            }
+            form{
+                border:1px solid black;
+                padding:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="welcome">
+            <h2>LOGIN PAGE</h2>
+            <div>
+                <label for="email">Email ID</label><br><br>
+                <input type="text" id="email" required>
+            </div><br>
+            <div>
+                <label for="pass">Password</label><br><br>
+                <input type="password" id="pass" required>
+            </div><br>
+            <div class="btn">
+                <input id="login"  type="submit" value="Login">
+            </div>
+        </form>
+    </body>
+</html>
