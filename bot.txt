@@ -1,0 +1,25 @@
+Do you want to know the hospital name?
+	-yes
+	 	Galaxy hospital.
+	-no
+Do you want to know the branches of the hospital?
+	-yes
+		Medicine, paediatrics, gynaecology, eye, dental , skin
+	-no
+Do you want to know the facilities available in the hospital?
+	-yes
+		Day care services
+		24x7 pharmacy
+		24x7 clinical laboratory services
+		24x7 ambulance
+		OPD procedure
+		Health checkups
+	-no
+Do you want to book an appointment?
+	-yes
+		Patient name?
+		Appointment timing?
+		Age ?
+	-no
+
+		
